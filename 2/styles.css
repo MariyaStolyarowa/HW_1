@@ -1,5 +1,5 @@
 html {
-    background-image: url(img/background.jpg);
+    background-image: url('img/background.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -35,7 +35,7 @@ ul li:before
 li {
     display: list-;
     list-style-position: inside;
-  }
+}
 ul {
     list-style: none;
     padding: 0px;
@@ -55,18 +55,20 @@ p {
     font-family: 'beer money', sans-serif;
     font-size: 30px;
         
-    }
+}
 a {
     color: rgb(8, 90, 28);
     font-family: 'beer money', sans-serif;
     font-size: 30px;
         
-    }
+}
     
 body {
-    text-align: center
+    text-align: center;
 }
-
+img {
+    width: 300px;
+}
 @font-face {
 	font-family: 'beer money';
 	src: url('fonts/beer_money.eot'); /* IE 9 Compatibility Mode */
