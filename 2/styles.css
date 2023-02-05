@@ -1,0 +1,80 @@
+html {
+    background-image: url('img/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+ 
+
+h1 {
+    color: rgb(162, 19, 19);
+    font-family: 'beer money', sans-serif;
+    font-size: 70px;
+}
+h2 {
+    color: rgb(162, 19, 19);
+    font-family: 'beer money', sans-serif;
+    font-size: 40px;
+    
+}
+h3 {
+    color: hsl(318, 90%, 40%);
+    font-family: 'beer money', sans-serif;
+    font-size: 40px;
+    
+}
+ul li:before
+{
+    content: '\25CA';
+    margin: 0 1em; 
+}
+li {
+    display: list-;
+    list-style-position: inside;
+}
+ul {
+    list-style: none;
+    padding: 0px;
+    color: #3a58ef;
+    font-family: 'beer money', sans-serif;
+    font-size: 40px;
+    
+}
+ol {
+    color: #0b715d;
+    font-family: 'beer money', sans-serif;
+    font-size: 40px;
+    
+}
+p {
+    color: rgb(89, 12, 243);
+    font-family: 'beer money', sans-serif;
+    font-size: 30px;
+        
+}
+a {
+    color: rgb(8, 90, 28);
+    font-family: 'beer money', sans-serif;
+    font-size: 30px;
+        
+}
+    
+body {
+    text-align: center;
+}
+img {
+    width: 300px;
+}
+@font-face {
+	font-family: 'beer money';
+	src: url('fonts/beer_money.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/beer_money.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/beer_money.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/beer_money.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/beer_money.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/beer_money.svg#beer_money') format('svg'); /* Chrome < 4, Legacy iOS */
+}
